@@ -1,0 +1,11 @@
+:root {
+  --x: 100px;
+  --y: 100px;
+}
+
+img {
+  position: relative;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+}
