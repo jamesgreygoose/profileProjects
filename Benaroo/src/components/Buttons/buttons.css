@@ -1,0 +1,119 @@
+#babel,
+#css,
+#express,
+#git,
+#heroku,
+#html,
+#jest,
+#js,
+#netlify,
+#node,
+#pg,
+#postman,
+#react,
+#vsCode,
+#codeWars {
+  width: 12vw;
+  border: none;
+}
+
+button:hover {
+  opacity: 50%;
+}
+#buttonDiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#babel {
+  background-image: url("./babel.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+
+#css {
+  background-image: url("./css.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#express {
+  background-image: url("./express\ bubble\ -\ Copy.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#git {
+  background-image: url("./Git\ bubble\ -\ Copy.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#heroku {
+  background-image: url("./heroku\ bubble.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#html {
+  background-image: url("./html\ bubble\ -\ Copy.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#jest {
+  background-image: url("./jest\ bubble\ -\ Copy.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#js {
+  background-image: url("./JS\ bubble\ -\ Copy.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#netlify {
+  background-image: url("./netlify\ bubble\ -\ Copy\ -\ Copy.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#node {
+  background-image: url("./node\ bubble.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#pg {
+  background-image: url("./PG\ bubble.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#postman {
+  background-image: url("./postman\ bubble.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#react {
+  background-image: url("./react\ bubble\ -\ Copy.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#vsCode {
+  background-image: url("./vscode\ bubble\ \(1\).JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
+#codeWars {
+  background-image: url("./codwars\ bubble\ -\ Copy.JPG");
+  background-size: 100%;
+  width: 11vw;
+  height: 18vh;
+}
