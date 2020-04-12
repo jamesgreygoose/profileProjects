@@ -1,0 +1,32 @@
+#PDImg {
+  height: 200px;
+  width: 200px;
+  border: black solid 3px;
+  list-style-type: none;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  float: left;
+  margin: 20px;
+}
+
+div,
+img,
+h1 {
+  list-style: none;
+}
+
+#contentdiv {
+  background-color: white;
+  border: black solid 3px;
+  border-radius: 10px;
+  width: 70vw;
+  position: relative;
+  margin-left: 250px;
+  display: block;
+  top: 50px;
+}
+#name {
+  color: red;
+  font-weight: bold;
+}

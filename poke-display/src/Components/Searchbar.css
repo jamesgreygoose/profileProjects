@@ -1,0 +1,35 @@
+div {
+  margin: 20px;
+}
+
+#pokemonlogo {
+  height: 200px;
+  width: 400px;
+  margin: 50px;
+}
+
+#input {
+  width: 10rem;
+  height: 1.5rem;
+  font-size: 20px;
+  border: black solid 3px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#searchbutton {
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 100px;
+  margin: 10px;
+  background-color: none;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG");
+  background-size: 100%;
+  position: relative;
+  top: 10px;
+}
+#searchbutton:hover {
+  cursor: pointer;
+}
