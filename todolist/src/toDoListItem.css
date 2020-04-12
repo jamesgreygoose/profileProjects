@@ -1,0 +1,24 @@
+#toDoListItem {
+  background-color: blanchedalmond;
+  color: rgb(65, 65, 65);
+  width: 80%;
+  margin: 10px;
+  border-radius: 40%;
+  border: red solid 3px;
+}
+
+#toDoListItem:hover {
+  width: 85%;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+button {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  color: red;
+  margin: 10px;
+  border-radius: 25%;
+  border: pink solid 3px;
+}
