@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    font-family: var(--primary-font);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 30% 50% 25%;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .WMCALogo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 200px;
+    margin: 1em;
+  }
+
+  header {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    background-color: #618b4a;
+    border-radius: 10px;
+  }
+  /* 
+  footer {
+    grid-column: 1 / 4;
+    grid-row: 3;
+  } */
+
+  header h1 {
+    margin-top: 2em;
+  }
+
+  .treeEntryForm {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .twitterFeed {
+    grid-column: 3;
+    grid-row: 2 / 3;
+  }
+
+  .twitterHashTagButton {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .container {
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    font-family: var(--primary-font);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr 4fr 2fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .WMCALogo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 200px;
+    margin: 1em;
+  }
+
+  header {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    background-color: #618b4a;
+    border-radius: 10px;
+  }
+
+  /* footer {
+    grid-column: 1 / 3;
+    grid-row: 4;
+  } */
+
+  header h1 {
+    margin-top: 2em;
+  }
+
+  .treeEntryForm {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .twitterFeed {
+    display: none;
+  }
+
+  .twitterHashTagButton {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .container {
+    width: 80vw;
+    margin: auto;
+    font-family: var(--primary-font);
+    padding: 1em;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
+    background-color: #618b4a;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+
+  .WMCALogo {
+    width: 100px;
+    margin: 1em;
+  }
+
+  /* footer {
+  } */
+
+  header h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .treeEntryForm {
+    margin: 10px auto;
+  }
+
+  .twitterFeed {
+    display: none;
+  }
+
+  .twitterHashTagButton {
+  }
+}

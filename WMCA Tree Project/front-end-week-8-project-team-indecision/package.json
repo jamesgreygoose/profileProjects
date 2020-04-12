@@ -1,0 +1,48 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "classnames": "^2.2.6",
+    "countup.js": "^2.0.4",
+    "leaflet": "^1.6.0",
+    "leaflet-draw": "^1.0.4",
+    "react": "^16.13.0",
+    "react-date-picker": "^7.10.0",
+    "react-dom": "^16.13.0",
+    "react-dropzone": "^10.2.1",
+    "react-geolocated": "^3.0.1",
+    "react-leaflet": "^2.6.1",
+    "react-leaflet-draw": "^0.19.0",
+    "react-leaflet-search": "^1.0.3",
+    "react-scripts": "3.4.0",
+    "react-twitter-embed": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
