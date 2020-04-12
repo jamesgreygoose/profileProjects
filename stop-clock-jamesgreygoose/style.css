@@ -1,0 +1,62 @@
+/* Edit whatever you like! */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(
+    63,
+    94,
+    251
+  ); /* fall back for browsers that dont support radial-gradient*/
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#clock-container > img {
+  height: 300px;
+  box-shadow: 0 0 40px 20px #0ff;
+  border-radius: 100%;
+}
+#hand {
+  position: absolute;
+  height: 120px;
+  width: 5px;
+  border-top: 120px solid black;
+}
+#btnPos {
+  width: 100vw;
+  display: inline-flex;
+  justify-content: center;
+}
+#startBtn {
+  width: 150px;
+  height: 50px;
+  background-color: lightgreen;
+  margin: 10px;
+}
+#stopBtn {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  margin: 10px;
+}
+
+#resetBtn {
+  width: 150px;
+  height: 50px;
+  background-color: yellow;
+  margin: 10px;
+}
+
+button:hover{
+  opacity:0.5;
+}
+}
